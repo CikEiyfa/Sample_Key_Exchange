@@ -30,7 +30,7 @@ public class Main {
         alice.generateCommonSecretKey();
         bob.generateCommonSecretKey();
 
-        alice.encryptAndSendMessage("Bob! Guess Who I am.", bob);
+        alice.encryptAndSendMessage("Bob! Guess Who I am ?.", bob);
 
         bob.whisperTheSecretMessage();
 
